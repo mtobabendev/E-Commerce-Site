@@ -2,8 +2,6 @@
 
 ## Features
 
--Built on the React Framework.
-
   - Examples of conditional rendering.
   - Dropdown/Slideout Navbar.
   - Multiple Components.
