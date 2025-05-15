@@ -1,4 +1,4 @@
-A sample E-Commerce Store
+# A sample E-Commerce Store
 
 -Built on the React Framework.
 
