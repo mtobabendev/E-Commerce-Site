@@ -1,6 +1,6 @@
 # A Sample E-Commerce Store
 
-##Features
+## Features
 
 -Built on the React Framework.
 
