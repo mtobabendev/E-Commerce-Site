@@ -1,6 +1,7 @@
 # A Sample E-Commerce Store
 
 ##Features
+
 -Built on the React Framework.
 
   - Examples of conditional rendering.
