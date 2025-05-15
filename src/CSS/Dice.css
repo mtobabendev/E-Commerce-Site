@@ -1,0 +1,48 @@
+#D4 {
+    height: 30px;
+    background-color: green;
+    border-radius: 30px;
+}
+
+#D6 {
+    height: 30px;
+    background-color: green;
+    border-radius: 30px;
+}
+
+#D8 {
+    height: 30px;
+    background-color: green;
+    border-radius: 30px;
+}
+
+#D10 {
+    height: 30px;
+    background-color: green;
+    border-radius: 30px;
+}
+
+#D12 {
+    height: 30px;
+    background-color: green;
+    border-radius: 30px;
+}
+
+#D20 {
+    height: 30px;
+    background-color: green;
+    border-radius: 30px;
+}
+
+#numberOfDice {
+    padding-top: 7px;
+    background-color: green;
+    color: white;
+    width: 35px;
+    border-radius: 10px;
+}
+
+#clearbtn {
+    color: purple;
+    background-color: green;
+}

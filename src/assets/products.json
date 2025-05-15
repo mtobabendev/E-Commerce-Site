@@ -1,0 +1,175 @@
+{
+    "products": [
+        {
+            "name": "Blue Shirt",
+            "price": 10.99,
+            "description": "This thing is blue",
+            "image": "/ProfilePlaceholder.png",
+            "category" : "Shirt",
+            "title": "Very Stylish!",
+            "quantity": 1
+        },
+        {
+            "name": "Yellow Shirt",
+            "price": 15.49,
+            "description": "Here is a description for the yellow shirt.",
+            "image": "/ProfilePlaceholder2.png",
+            "category" : "Shirt",
+            "title": "Who wears Yellow to the office?",
+            "quantity": 1
+        },
+        {
+            "name": "Orange Shirt",
+            "price": 1499.99,
+            "description": "Prestigious orange shirt.",
+            "image": "/ProfilePlaceholder.png",
+            "category" : "Shirt",
+            "title": "Excellent choice! Way to stand out!",
+            "quantity": 1
+        },
+        {
+            "name": "Grey Pants",
+            "price": 499.99,
+            "description": "Plain 'ol work pants...",
+            "image": "/fish4.jpg",
+            "category" : "Pants",
+            "title": "Tried & True.",
+            "quantity": 1
+        },
+        {
+            "name": "Blue Jeans",
+            "price": 9.99,
+            "description": "Wantabe Blue Jeans.",
+            "image": "/fish3.jpg",
+            "category" : "Pants",
+            "title": "Levi's Baby!",
+            "quantity": 1
+        },
+        {
+            "name": "Black Pants",
+            "price": 24.99,
+            "description": "Now we're talking!",
+            "image": "/fish2.jpg",
+            "category" : "Pants",
+            "title": "Very professional.",
+            "quantity": 1
+        },
+        {
+            "name": "BitCoin Mining Server",
+            "price": 2499.99,
+            "description": "Print your own money!",
+            "image": "/rhino.jpg",
+            "category" : "Misc",
+            "title": "Best hash rate around!",
+            "quantity": 1
+        },
+        {
+            "name": "Android Tablet",
+            "price": 349.99,
+            "description": "Better than an iPad.",
+            "image": "/bear.jpg",
+            "category" : "Misc",
+            "title": "Yeah, this lets you BitTorrent AND use emulators.",
+            "quantity": 1
+        },
+        {
+            "name": "Computer Mouse",
+            "price": 24.99,
+            "description": "Everyone needs one.",
+            "image": "/SubmitButton.png",
+            "category" : "Misc",
+            "title": "You'll be lost without this.",
+            "quantity": 1
+        },
+        {
+            "name": "Get Away Car",
+            "price": 1499.00,
+            "description": "Will NOT outrun the Batmobile (If it could, it wouldn't be in the evidence locker)!",
+            "image": "/cars2.jpg",
+            "category" : "Criminal",
+            "title": "POS 87 Honda.",
+            "quantity": 1
+        },
+        {
+            "name": "Widget",
+            "price": 34.99,
+            "description": "What the HELL is a Widget anyway?",
+            "image": "/freeze1.webp",
+            "category" : "Criminal",
+            "title": "I still don't know what a Widget is...",
+            "quantity": 1
+        },
+        {
+            "name": "Pineapple",
+            "price": 4.99,
+            "description": "Do I really need to explain this? Sponge Bob lives in one...",
+            "image": "/pineapple.jpg",
+            "category" : "Criminal",
+            "title": "He lives in a pineapple under the sea...",
+            "quantity": 1
+        },
+        {
+            "name": "Freeze Gun",
+            "price": 299.00,
+            "description": "Bring an early winter to Gotham.",
+            "image": "/freeze2.webp",
+            "category" : "Criminal",
+            "title": "Is it cold in here, or is it just me?",
+            "quantity": 1
+        },
+        {
+            "name": "Poison Ivy's Green House",
+            "price": 3199.99,
+            "description": "Grow anything! You absolutely need this!",
+            "image": "/poisonIvy2.webp",
+            "category" : "Criminal",
+            "title": "Sexiest. Botanist. Ever.",
+            "quantity": 1
+        },
+        {
+            "name": "Harley's Mallet",
+            "price": 14.99,
+            "description": "This thing is so fun!",
+            "image": "/quinnRobbie.webp",
+            "category" : "Criminal",
+            "title": "This girl's got all the best toys!",
+            "quantity": 1
+        },
+        {
+            "name": "Joker Venom",
+            "price": 99.99,
+            "description": "When you absolutely, positively have to kill every person in the room, accept no substitutes.",
+            "image": "/jokerPhoenix2.webp",
+            "category" : "Criminal",
+            "title": "Let's put a smile on that face!",
+            "quantity": 1
+        },
+        {
+            "name": "Drums of Gas & a Couple of Bullets",
+            "price": 19.99,
+            "description": "These REALLY can change everything...",
+            "image": "/jokerLedger.webp",
+            "category" : "Criminal",
+            "title": "You know what they have in common? They're cheap.",
+            "quantity": 1
+        },
+        {
+            "name": "Exploding Penguin",
+            "price": 5.00,
+            "description": "WAY more fun than a rubber duck.",
+            "image": "/rocks.jpg",
+            "category" : "Criminal",
+            "title": "When hand grenades just aren't amusing enough.",
+            "quantity": 1
+        },
+        {
+            "name": "Bernie the Stuffed Beaver",
+            "price": 24.99,
+            "description": "Totally hillarious, but only Harley can hear him.",
+            "image": "/quinnGaga.webp",
+            "category" : "Criminal",
+            "title": "My girl's imaginary friend.",
+            "quantity": 1
+        }
+    ]
+}

@@ -1,0 +1,723 @@
+/* .topnav {
+    background-color: blue;
+    height: 3em;
+    overflow: hidden;
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: green;
+    color: black;
+  }
+  
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+
+/* .split {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+} */
+
+/* The sidebar menu */
+/* #mySidebar {
+    height: 2em;
+    background-color: purple;
+    background: purple;
+} */
+
+/* html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+} */
+
+.test1 {
+    border-radius: 20px 0px 0px 20px;
+    background-color: green;
+}
+
+.lastitem {
+    border-radius: 0px 20px 20px 0px;
+    
+}
+
+.sidebar {
+    position: absolute; /* Stay in place */
+    height: 100%; /* 100% Full-height */
+    width: 200px; /* 0 width - change this with JavaScript */
+    z-index: 2; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    transform: translateX(-100%);
+}
+
+.nothing {
+    position: absolute; 
+}
+
+.container1 {
+    position: absolute;
+}
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: -50px;
+    font-size: 30px;
+    margin-left: 50px;
+    /* padding: 2em; */
+    /* border: 2px solid white; */
+  }
+
+  #closebtn {
+    /* visibility: hidden; */
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 0 !important;
+  }
+
+#sidelink1 {
+    margin: 0 !important;
+    width: 200px !important;
+}
+
+#sidelink2 {
+    margin: 0 !important;
+    width: 200px !important;
+}
+
+#sidelink3 {
+    margin: 0 !important;
+    width: 200px !important;
+}
+
+#theme-icon {
+    display: inline-block !important;
+    position: relative !important;
+    top: 19px !important;
+    left: 115px !important;
+    width: 20px !important;
+    height: 20px !important;
+    background-image: url('/themeToggle.svg') !important;
+    cursor: pointer !important;
+    transition: 2s !important;
+}
+
+#main {
+    background-color: purple;
+}
+
+  /* The button used to open the sidebar */
+  .openbtn {
+    position: relative;
+    top: 15px;
+    left: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 0px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: green;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 18.75px;
+  }
+  
+  .openSidebar {
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    /* Hides the scrollbar */
+    overflow-y: hidden;
+    z-index: 4;
+    float: left;
+    transform: translateX(0);
+  }
+  
+  .openMain {
+    margin-left: 200px;
+  }
+  
+  .closedSidebar {
+    width: 0;
+  }
+  
+  .closedMain {
+    margin-left: 0;
+    border-right: 2px solid gray;
+  }
+
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+.search-container {
+    height: 4em;
+    background-color: purple;
+    padding: 10px 0px 0px 15px;
+    border-right: 2px solid gray;
+    /* position: absolute;
+    top: 1em;
+    right: 25em;
+    float: right; */
+}
+
+.search-container input[type=text] {
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+search-container input {
+    caret-color: yellow;
+}
+
+@keyframes blink {
+    0%, 100% { text-decoration-line: none; }
+    50% { text-decoration-line: underline; }
+}
+
+#search-input {
+   text-decoration-color: red;
+   text-decoration-line: underline;
+   caret-color: transparent;
+}
+
+#search-input:focus {
+    animation: blink 1s infinite steps(1, end);
+}
+
+#search-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+#search-wrapper::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 2px;
+    background-color: skyblue;
+    bottom: 30%;
+    right: calc(5em);
+    z-index: 2;
+    animation: blink 1s step-end infinite;
+    visibility: hidden;
+}
+
+#search-wrapper:focus-within::after {
+    visibility: visible;
+}
+
+/* #searchBox:focus {
+    animation: blink 2s infinite;
+} */
+
+.search-container input:hover {
+    background: green;
+}
+
+.search-container input::placeholder {
+    padding-left: 10px;
+    transform: translateY(20%);
+    /* text-align: center; */
+    /* text-decoration: line-through; */
+    font-size: 2em;
+    color: green;
+    text-shadow: -2px -2px 4px purple;
+}
+
+#searchBox {
+    height: 2em;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+#searchButton {
+    height: 2em;
+    margin-top: 7px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.search-results {
+    color: black !important;
+    background-color: white !important;
+    border-radius: 10px !important;
+    z-index: 4 !important;
+    /* position: relative !important; */
+}
+
+.search-results {
+    /* position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: -2.5px;
+    width: 30%; */
+    height: 300px !important;
+    /* overflow-y: hidden; */
+}
+
+.scroll {
+    overflow-y: scroll;
+}
+
+.navs {
+    color: black;
+    z-index: 4;
+    width: 100%;
+    list-style-type: none;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    text-align: left;
+}
+
+.navs:hover {
+    color: rgb(87, 83, 83);
+}
+
+.highlight {
+    background-color: gray;
+}
+
+.cart-holder {
+    background-color: purple;
+    flex-basis: 11.9%;
+    display: inline-block;
+    /* position: absolute;
+    top: 0;
+    right: 23em;
+    float: right; */
+    cursor: pointer;
+}
+
+#cart-quantity {
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: -60px !important;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+}
+
+.cart-holder img {
+    padding-bottom: 2em;
+    /* width: 50px; */
+    height: 75px;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-delay: .5s; */
+}
+
+.cart-icon {
+  height: 4em;
+}
+
+/* .cart-holder img:hover {
+    background-color: red;
+    border-radius: 20px;
+    transform:skewX(180deg);
+} */
+
+.dropdown {
+    overflow: hidden; 
+    color: lightgrey;
+    background-color: purple;
+    /* position: absolute; */
+    /* top: 1em; */
+    /* right: 5em; */
+}
+
+.dropdown {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: lightgray;
+    padding: 0px;
+    font-family: inherit;
+    margin: 0;
+}
+
+#user-pic {
+    height: 20px;
+    border-radius: 20px;
+}
+
+#login-pic {
+    height: 20px;
+    border-radius: 20px;
+}
+
+.dropbtn-login {
+    background-color: green;
+    height: 20px;
+    width: 60px;
+    color: lightgray;
+    border-radius: 10px;
+    padding: 0px;
+    margin-left: 5px;
+}
+.dropbtn-login:hover {
+    background-color: green;
+}
+
+.dropbtn-logout {
+    background-color: green;
+    height: 20px;
+    width: 58px;
+    color: lightgray;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.dropbtn-logout:hover {
+    background-color: green;
+}
+
+.dropbtn1 {
+    background-color: purple;
+    color: lightgray;
+    border-radius: 10px;
+}
+
+.dropbtn1:hover {
+    background-color: green;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    flex-direction: column;
+}
+
+.dropdown-content button {
+    width: 100%;
+    border-radius: 0;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+    display: flex;
+}
+
+.userName {
+    background-color: purple;
+    color: lightgray;
+}
+
+.password {
+    background-color: purple;
+    color: lightgray;
+}
+
+.password-requirements {
+    position: absolute;
+    left: -23em;
+    background-color: purple;
+    text-align: left;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#facebook {
+    height: 50px;
+}
+
+.topnav .search-container button {
+    float: right;
+    top: 1em;
+    padding: 6px 10px;
+    margin-top: 4px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.topnav .search-container button:hover {
+    background: green;
+}
+
+
+@media (max-width: 600px) {
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+
+
+#boilerRoom {
+    opacity: 0%;
+    transition-property: all !important;
+    transition-duration: 3s !important;
+    transition-delay: 2s !important;
+    /* transition: background-color 2s ease-out 1s !important; */
+}
+
+#boilerRoom1:hover #boilerRoom, #boilerRoom1:focus #boilerRoom {
+    opacity: 100%;
+    background-color: green;
+    background-image: linear-gradient(45deg, red 0%, black 100%);
+    /* transition-property: all !important;
+    transition-duration: 1s !important;
+    transition-delay: .5s !important;
+    height: 15vh !important;
+    background-color: red !important; */
+}
+
+/* #navbar5 {
+    display: flex;
+} */
+
+#navbar5 ul {
+    list-style-type: none;
+    list-style: none;
+    height: 65px;
+    position: relative; 
+    z-index: 5;
+    /*Turning this on causes the drop down/slide out menus to not work correctly*/
+    /* display: flex; */
+}
+
+#navbar5 ul li { float: left; }
+
+#navbar5 ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%; }
+
+#navbar5 ul ul li {
+    float: none;
+    position: relative; }
+ 
+#navbar5 ul ul li ul {
+    position: absolute;
+    left: 100%;
+    top: 0%; }
+
+#navbar5 ul li.lastitem ul li ul {
+    left: -100%; }
+
+#navbar5 ul li:hover > ul {
+    visibility: visible; }
+
+#navbar5 > ul::after {
+    content: "";
+    display: block; 
+    clear: both; }
+
+#navbar5 ul {
+    margin: 0;
+    padding: 0; }
+
+#navbar5 ul li a {
+    text-align: center;
+    display: block;
+    height: 4em;
+    width: 10em;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: purple;
+    /* background-color: black; */
+    /* background-image: linear-gradient(45deg, black 0%, gray 50%, black 100%); */
+    color: lightgray;
+    font-weight: bold; 
+    border-right: 2px solid gray;
+    /* border-radius: 10px 20px 0px 20px; } */
+}
+
+#navbar5 ul li.lastitem a {
+    border-right: none;
+    width: 100px; }
+
+#navbar5 ul li a.current {
+    color: red; }
+
+#navbar5 ul li a:hover, #navbar5 ul li a:focus {
+    background-color: green;
+    background-image: linear-gradient(45deg, green 0%, gray 50%, green 100%);
+}
+
+.main-container {
+    /* display: flex; */
+    width: 100%;
+    position: relative;
+}
+
+.main-container ul {
+    flex-basis: 100%;
+}
+
+.greenContainer > div:nth-child(odd) {
+    background-color: blue;
+    flex-basis: 25%;
+}
+
+.greenContainer > div:nth-child(even) {
+    background-color: red;
+    flex-basis: 69%;
+}
+
+.container33 > div {
+    background-color: purple;
+    color:rgb(2, 209, 2);
+    border-radius: 10px;
+    /* height: 100px; */
+    margin: 2px;
+    padding: .30em;
+    /* flex-basis: 32%; */
+    width: 47%;
+    height: 5em;
+    text-align: center;
+    align-content: center;
+    word-break: break-all;
+}
+
+#yard {
+    height: 21em !important;
+    width: 100% !important;
+    flex-basis: 100% !important;
+    border-radius: 10px;
+    color: blueviolet;
+    background-color: darkgreen;
+}
+
+.redContainer {
+    display: flex;
+    background-color: pink;
+    flex-basis: 30%;
+    flex-direction: column;
+}
+.redContainer > div {
+    background-color: red;
+    color: lightgray;
+    margin: 2px;
+    /* flex-basis: 60%; */
+    width: 25em;
+    height: 7em;
+}

@@ -1,0 +1,227 @@
+.aboutus-body {
+    margin: 0;
+    padding: 0;
+    display: none;
+    width: 90%;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.aboutus-div {
+    background-image: linear-gradient(90deg, black 0%, red 50%, black 100%);
+    border-radius: 20px;
+}
+
+.aboutus-nav, .aboutus-section, .aboutus-main, .aboutus-footer {
+    display: grid;
+    width: 1600px;
+    /* margin-bottom: 7px; */
+    /* background: blue; */
+}
+
+.aboutus-nav {
+    grid-template: 80px / 100px 1fr;
+    gap: 10px;
+}
+
+.logo-div {
+    background-image: linear-gradient(90deg, black 0%, purple 50%, black 100%);
+    width: 150px;
+    border-radius: 300px;
+}
+
+.navigation-div {
+    padding-top: 10px;
+    height: 50px;
+    width: 1370px;
+    background-image: linear-gradient(90deg, black 0%, red 50%, black 100%);
+    border-radius: 20px;
+}
+
+/* .aboutus-div:nth-of-type(2) {
+    height: 40px;
+    align-self: center;
+} */
+
+.aboutus-section {
+    grid-template-rows: 300px;
+    /* grid-template-columns: 500px; */
+}
+
+#section-slideshow {
+    display: flex;
+    list-style: none;
+    width: 5%;
+    position: relative;
+    & li {
+        width: 20%
+    }
+}
+
+#section-slideshow { animation: slideshow 5s infinite alternate; }
+@keyframes slideshow {
+    0%       {left:    0%;}
+    10%      {left:    0%;}
+    20%      {left: -10%;}
+    30%      {left: -10%;}
+    40%      {left: -20%;}
+    50%      {left: -20%;}
+    60%      {left: -30%;}
+    70%      {left: -30%;}
+    80%      {left: -40%;}
+    90%      {left: -40%;}
+    100%     {left: -40%;}
+}
+
+#section-pic {
+    height: 300px;
+    border-radius: 20px;
+}
+
+.aboutus-main {
+    height: 550px;
+    grid-template: 300px / repeat(3, 500px);
+    padding-top: 50px;
+    /* align-content: center; */
+    justify-content: space-evenly;
+}
+
+.joker-div {
+    background-image: linear-gradient(90deg, black 0%, red 50%, black 100%);
+    border-radius: 20px;
+    height: 450px;
+    padding-top: 15px;
+}
+
+.joker-pic {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.joker-pic:hover {
+    filter: blur(5px);
+}
+
+.harley-div {
+    background-image: linear-gradient(90deg, black 0%, red 50%, black 100%);
+    border-radius: 20px;
+    height: 450px;
+    padding-top: 15px;
+}
+
+.harley-pic {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.harley-pic:hover {
+    filter: opacity(0);
+}
+
+.aboutus-name-harley {
+    /* width: 100%;
+    display: inline-block; */
+    background-image: linear-gradient(90deg, black 0%, green 50%, black 100%);
+    
+    animation: harley-right 5s ease-in-out 5s infinite alternate; }
+@keyframes harley-right {
+    from { 
+        transform: translateX(-10%);
+        color: purple;
+        text-shadow: -2px -2px 4px white; 
+}
+    to { 
+        transform: translateX(10%);
+        color: green;
+        text-shadow: -2px -2px 4px white; 
+    }
+}
+
+.aboutus-name-harley1 {
+    width: 100%;
+    display: inline-block;
+    background-image: linear-gradient(90deg, black 0%, green 50%, black 100%);
+    border-radius: 20px;
+
+    animation: harley-right 5s ease-in-out 5s infinite alternate; }
+@keyframes harley-right {
+    from { 
+        transform: translateX(-5%);
+        color: purple;
+        text-shadow: -2px -2px 4px white; 
+}
+    to { 
+        transform: translateX(5%);
+        color: green;
+        text-shadow: -2px -2px 4px white; 
+    }
+}
+
+.aboutus-title-harley p {
+    color: green;
+}
+
+.hugo-div {
+    background-image: linear-gradient(90deg, black 0%, red 50%, black 100%);
+    border-radius: 20px;
+    height: 450px;
+    padding-top: 15px;
+}
+
+.hugo-pic {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.hugo-pic:hover {
+    filter: invert(30%);
+}
+
+/* .aboutus-pic {
+    height: 200px;
+    width: 300px;
+} */
+
+.aboutus-name {
+    color: purple;
+    text-shadow: -2px -2px 4px white;
+    background-image: linear-gradient(90deg, black 0%, green 50%, black 100%);
+}
+
+.aboutus-title {
+    color: green;
+}
+
+.aboutus-text {
+    color: lightgray;
+    background-image: linear-gradient(90deg, black 0%, green 50%, black 100%);
+
+}
+
+.aboutus-footer {
+    height: 140px;
+    /* align-items: center; */
+    /* justify-items: center; */
+    padding-bottom: 10px;
+}
+
+#basementHeader {
+    width: 100%;
+    display: inline-block;
+    
+    animation: moveright 6s ease-in-out 1s infinite alternate; }
+@keyframes moveright {
+    from { 
+        transform: translateX(-30%);
+        color: purple; 
+    }
+    to { 
+        transform: translateX(30%);
+        color: green;
+    }
+}
+
+.arkham-navlink {
+    /* background-image: linear-gradient(90deg, black 0%, green 50%, black 100%); */
+    border-radius: 20px;
+}

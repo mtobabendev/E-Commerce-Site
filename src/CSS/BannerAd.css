@@ -1,0 +1,131 @@
+#bannerad-1 {
+    height: 125px;
+    background-image: linear-gradient(-135deg, green 0%, black 50%, red 100%);
+    border-radius: 10px;
+    display: grid;
+    width: 1560px;
+    /* grid-template-rows: 100px 100px 100px 100px; */
+    grid-template-columns: 500px 230px 370px 490px;
+    gap: 10px;
+}
+
+#bannerad-left-1-pic {
+    /* position: relative; */
+    /* bottom: 0px; */
+    /* float: left; */
+    height: 125px;
+    border-radius: 0px 0px 10px;
+    padding-right: 0px;
+}
+
+#bannerad-left-2-pic {
+    /* position: relative; */
+    /* bottom: 0px; */
+    /* float: left; */
+    height: 125px;
+    border-radius: 10px;
+    padding-right: 0px;
+}
+
+#bannerad-left-3-pic {
+    /* position: relative; */
+    /* bottom: 0px; */
+    /* float: left; */
+    height: 125px;
+    border-radius: 10px;
+    padding-right: 41px;
+}
+
+#message-container-3 {
+    align-content: center;
+}
+
+#bannerad-right-1-pic {
+    /* position: relative;
+    bottom: 65px;
+    right: 0px;
+    float: right; */
+    height: 125px;
+    /* width: 300px; */
+    /* border-radius: 10px; */
+    padding-left: 0px;
+}
+
+#bannerad-right-2-pic {
+    /* position: relative;
+    bottom: 65px;
+    right: 0px;
+    float: right; */
+    height: 125px;
+    border-radius: 10px;
+    padding-left: 0px;
+}
+
+#bannerad-right-3-pic {
+    /* position: relative;
+    bottom: 65px;
+    right: 0px;
+    float: right; */
+    height: 125px;
+    border-radius: 10px;
+    padding-left: 0px;
+}
+
+#bannerad-1-title {
+    font-family: fantasy;
+    color: green;
+    font-size: x-large;
+}
+
+#messenger-main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* #bannerad-joker {
+    flex-basis: 10%;
+}
+
+#bannerad-chat-title {
+    flex-basis: 80%;
+}
+
+#bannerad-harley {
+    flex-basis: 10%;
+} */
+
+/* #message-container-1 {
+    display: flex;
+    position: relative;
+    top: -40px; 
+} */
+
+#bannerad-chat-left {
+    height: 25px;
+}
+
+#bannerad-chat-right {
+    height: 25px;
+}
+
+
+#bannerad-2 {
+    display: grid;
+    width: 1560px;
+    grid-template: repeat(2, 40px) / repeat(auto-fit, minmax(75px, 1fr));
+    gap: 10px;
+    border: 10px white solid;
+    border-radius: 10px;
+}
+
+.WildCardJoker {
+    height: 100px;
+}
+
+#topad-title {
+    position: relative;
+    float: left;
+    left: 375px;
+    top: 25px;
+    height: 0px;
+}

@@ -1,0 +1,344 @@
+* {box-sizing: border-box;}
+
+
+#bannerad-joker {
+  flex-basis: 25%;
+}
+
+#joker-left {
+  height: 30px;
+}
+
+#messenger-wildcard {
+  height: 25px;
+  background-color: rgb(189, 3, 189);
+  border-radius: 5px;
+
+}
+#bannerad-chat-title {
+  flex-basis: 50%;
+}
+
+#bannerad-harley {
+  flex-basis: 25%;
+}
+
+#harley-left {
+  height: 30px;
+}
+
+#msg-main-container {
+  display: flex;
+  /* position: absolute; */
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  /* position: fixed; */
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  position: absolute;
+  transform: translate(-1.5%, -11.5%);
+  z-index: 10;
+  /* transform: translate(x, y); */
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.sidebar {
+  position: absolute; /* Stay in place */
+  height: 100%; /* 100% Full-height */
+  width: 200px; /* 0 width - change this with JavaScript */
+  z-index: 2; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  transform: translateX(-100%);
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  font-size: 30px;
+  margin-left: 50px;
+  /* padding: 2em; */
+  /* border: 2px solid white; */
+}
+
+#closebtn {
+  /* visibility: hidden; */
+  left: -20px;
+}
+
+#sidelink1 {
+  margin: 0 !important;
+  width: 200px !important;
+}
+
+#sidelink2 {
+  margin: 0 !important;
+  width: 200px !important;
+}
+
+#sidelink3 {
+  margin: 0 !important;
+  width: 200px !important;
+}
+
+/* The button used to open the sidebar */
+.msg-openbtn {
+  position: relative;
+  top: -43px;
+  left: -120px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 0px;
+  border: none;
+}
+
+.msg-openbtn:hover {
+  background-color: green;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 18.75px;
+}
+
+.openSidebar {
+  width: 180px;
+  height: 557px;
+  border-radius: 20px;
+  background-image: linear-gradient(90deg, black 0%, purple 50%, black 100%);
+  position: absolute;
+  /* Hides the scrollbar */
+  overflow-y: hidden;
+  z-index: 4;
+  float: left;
+  transform: translateX(0);
+}
+
+.openMain {
+  margin-left: 200px;
+}
+
+.closedSidebar {
+  width: 0;
+}
+
+.closedMain {
+  margin-left: 0;
+  border-right: 2px solid gray;
+}
+
+#msg-loginbtn {
+  height: 20px;
+  font-size: small;
+}
+
+#chat-title {
+  /* width: 100%; */
+  /* display: inline-block; */
+  /* background-image: linear-gradient(90deg, black 0%, green 50%, black 100%); */
+  border-radius: 20px;
+
+  animation: chat-title-right 1s ease-in-out 0s infinite alternate; }
+@keyframes chat-title-right {
+  from { 
+      transform: translateX(2%);
+      color: purple;
+      text-shadow: -2px -2px 4px white; 
+}
+  to { 
+      transform: translateX(10%);
+      color: green;
+      text-shadow: -2px -2px 4px white; 
+  }
+}
+
+#video-btn {
+  background-color: purple;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+
+  animation: video-btn-animate 3s ease-in-out 0s infinite alternate; }
+@keyframes video-btn-animate {
+  from { 
+      /* transform: translateX(-5%); */
+      background-image: linear-gradient(-135deg, purple 0%, black 50%, red 100%);
+      color: lightgray;
+      text-shadow: -2px -2px 4px white; 
+}
+  to { 
+      /* transform: translateX(5%); */
+      background-image: linear-gradient(-135deg, red 0%, black 50%, purple 100%);
+      color: black;
+      text-shadow: -2px -2px 4px white; 
+  }
+}
+
+.video-btn:hover {
+  opacity: 5;
+}
+
+#msg-opt {
+  display: flex;
+}
+
+#messenger-joker {
+  flex-basis: 20%;
+}
+
+#messenger-joker:hover {
+  background-color: purple;
+  border-radius: 20px;
+}
+
+#msg-label {
+  /* width: 100%; */
+  /* display: inline-block; */
+  /* background-image: linear-gradient(90deg, black 0%, green 50%, black 100%); */
+  border-radius: 20px;
+  flex-basis: 60%;
+
+  animation: msg-label-right 3s ease-in-out 0s infinite alternate; }
+@keyframes msg-label-right {
+  from { 
+      /* transform: translateX(-5%); */
+      color: purple;
+      text-shadow: -2px -2px 4px white; 
+}
+  to { 
+      /* transform: translateX(5%); */
+      color: green;
+      text-shadow: -2px -2px 4px white; 
+  }
+}
+
+#messenger-harley {
+  flex-basis: 20%;
+}
+
+#messenger-harley:hover {
+  background-color: purple;
+  border-radius: 20px;
+}
+
+#messenger-harley::title {
+  border-radius: 20px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  /* background-color: whitesmoke; */
+  border-radius: 20px;
+  background-image: linear-gradient(-135deg, green 0%, black 50%, red 100%);
+
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  border-radius: 20px;
+  /* background: pink; */
+  /* background-image: linear-gradient(135deg, green 0%, black 50%, red 100%); */
+  /* background-image: url('quinnRobbie2.webp') {
+    height: 100%;
+  }; */
+  background: url('WildCardJoker.jpg') left -20px top -100px;
+  background-size: 310px;
+  color: rgb(4, 254, 4);
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea::placeholder {
+  color: rgb(255, 0, 255);
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .send-btn {
+  background-color: purple;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add some hover effects to buttons */
+.form-container .cancel-btn:hover, .send-btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
